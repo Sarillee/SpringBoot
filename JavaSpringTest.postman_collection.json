@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "cdef5fed-6f8a-4dd2-97a5-ff822443657d",
+		"name": "JavaSpringTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6541552",
+		"_collection_link": "https://interstellar-station-769416.postman.co/workspace/357dc2d1-4251-4f9a-8c26-a4028a2dae7f/collection/6541552-cdef5fed-6f8a-4dd2-97a5-ff822443657d?action=share&source=collection_link&creator=6541552"
+	},
+	"item": [
+		{
+			"name": "addEmployee",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getEmployee",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "deleteEmployee",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateEmployee",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
