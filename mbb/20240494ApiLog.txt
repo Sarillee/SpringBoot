@@ -1,0 +1,25 @@
+20240494145156::getWorldTime-->
+20240494145157::getWorldTime<--{"timezone":"UTC","formatted":"03.04.2024 06:51","timestamp":1712127117787,"weekDay":3,"day":3,"month":4,"year":2024,"hour":6,"minute":51}
+20240494202946::getEmployees-->
+20240494202947::getEmployees<--[Employee [id=1, name=John, email=john.oo.com, phoneNo=01233, department=Software, dob=1995-01-19, age=29], Employee [id=2, name=Deepa, email=deepa.oo.com, phoneNo=01233, department=Software, dob=1999-03-29, age=25]]
+20240494203012::addEmployee-->Employee [id=0, name=James, email=james.oo.com, phoneNo=01233, department=QC, dob=1996-04-09, age=27]
+20240494203012::addEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203032::getEmployees-->
+20240494203032::getEmployees<--[Employee [id=1, name=John, email=john.oo.com, phoneNo=01233, department=Software, dob=1995-01-19, age=29], Employee [id=2, name=Deepa, email=deepa.oo.com, phoneNo=01233, department=Software, dob=1999-03-29, age=25], Employee [id=3, name=James, email=james.oo.com, phoneNo=01233, department=QC, dob=1996-04-09, age=27]]
+20240494203055::updateEmployee-->id=3,nameAlexa,emailalexa.oo.com
+20240494203055::updateEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203108::addEmployee-->id=3
+20240494203108::addEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203114::updateEmployee-->id=3,nameAlexa,emailalexa.oo.com
+20240494203903::addEmployee-->Employee [id=0, name=James, email=james.oo.com, phoneNo=01233, department=QC, dob=1996-04-09, age=27]
+20240494203903::addEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203907::getEmployees-->
+20240494203907::getEmployees<--[Employee [id=1, name=John, email=john.oo.com, phoneNo=01233, department=Software, dob=1995-01-19, age=29], Employee [id=2, name=Deepa, email=deepa.oo.com, phoneNo=01233, department=Software, dob=1999-03-29, age=25], Employee [id=3, name=James, email=james.oo.com, phoneNo=01233, department=QC, dob=1996-04-09, age=27]]
+20240494203923::updateEmployee-->id=3,nameAlexa,emailalexa.oo.com
+20240494203924::updateEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203929::updateEmployee-->id=3,nameAlexa,emailalexa.oo.com
+20240494203929::updateEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494203956::addEmployee-->id=3
+20240494203956::addEmployee<--{"ErrorCode":0,"Message":"Success"}
+20240494204005::updateEmployee-->id=3,nameAlexa,emailalexa.oo.com
+20240494204005::updateEmployee<--{"ErrorCode":102,"Message":"Fail, ID not Exists"}
