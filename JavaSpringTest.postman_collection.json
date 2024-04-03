@@ -10,8 +10,30 @@
 		{
 			"name": "addEmployee",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"James\",\r\n    \"email\": \"james.oo.com\",\r\n    \"phoneNo\": \"01233\",\r\n    \"department\": \"QC\",\r\n    \"dob\": \"1996-04-09\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"employee"
+					]
+				}
 			},
 			"response": []
 		},
@@ -19,39 +41,115 @@
 			"name": "getEmployee",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"employee"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "deleteEmployee",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/employee/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"3"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "updateEmployee",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/employee/3?name=Alexa&email=alexa.oo.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"employee",
+						"3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Alexa"
+						},
+						{
+							"key": "email",
+							"value": "alexa.oo.com"
+						}
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "3rdPartyAPI",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/worldtime",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"worldtime"
+					]
+				}
 			},
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "3rdPartyOriginalAPI",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://tools.aimylogic.com/api/now",
+					"protocol": "https",
+					"host": [
+						"tools",
+						"aimylogic",
+						"com"
+					],
+					"path": [
+						"api",
+						"now"
+					]
+				}
 			},
 			"response": []
 		}
